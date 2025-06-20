@@ -24,19 +24,19 @@ nav{
     z-index: 2;
     left: 0; 
     font-size: 20px;
-    padding: 10px 100px;
+    padding: 25px 100px;
+    
+    
 
 }
 .logo h1 img{
-    background-color:white;
+    
     line-height: 15px;
-    padding: 30px 50px;
     float:left;
 }
 nav ul{
     float:right;
     margin:0;
-    padding: 30px 50px;
     overflow: hidden;
     z-index: 1;
 }
@@ -77,10 +77,12 @@ i{
 }
 
 #HomePage{
-    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2025/03/24/VRBO_APFT2_BARCELONA_THERIN_HOUSE_2_4605_1.png?impolicy=fcrop&w=1920&h=580&q=medium");
+    height: 75vh;
+    background-image: url("/Assets/bag.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-top: 80px;
 }
 
 
