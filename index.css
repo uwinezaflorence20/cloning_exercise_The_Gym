@@ -83,6 +83,32 @@ i{
     background-position: center;
     background-size: cover;
     margin-top: 80px;
+    color: white;
+    position: relative;
+}
+#HomePage::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* black overlay with 40% opacity */
+    z-index: 1;
+}
+
+/* Make sure your actual content sits above the overlay */
+#HomePage * {
+    position: relative;
+    z-index: 2;
+}
+.foryou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 250px ;
+    transform: translateX(-300px);
+    
+}
+p{
+font-size: 45px;
 }
 
 
